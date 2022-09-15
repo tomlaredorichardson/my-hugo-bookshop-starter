@@ -1,4 +1,4 @@
---- 
+---
 content_blocks:
   # An example of using bookshop via array structures.
   # On CloudCannon, these structures are configured automatically for you.
@@ -15,6 +15,12 @@ content_blocks:
     content_html: >-
       <p>For more info, check out the <a href="https://github.com/CloudCannon/hugo-bookshop-starter#readme" target="_blank">readme</a></p>
     type: standard
+  - _bookshop_name: toms-new-component
+    field: "wassup"
+    text: "just a lil text"
+    content:
+      content_html: >-
+        <p>A skeleton spooky.</p>
 note_html: >-
   <p>You can also use the bookshop tag directly.</p>
 ---

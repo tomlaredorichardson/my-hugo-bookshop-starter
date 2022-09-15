@@ -1,0 +1,6 @@
+<div class="c-toms-new-component">
+  {{ range .tags }} {{ partial "bookshop" (slice "tag" .) }} {{ end }}
+  <h1 class="c-title__title">{{ .field }}</h1>
+  <h1 class="c-title__title">{{ .text }}</h1>
+  {{ with .content }} {{ partial "bookshop" (slice "content" .) }} {{ end }}
+</div>
